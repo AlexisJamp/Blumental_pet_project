@@ -1,0 +1,32 @@
+div {
+  border: 1px solid black;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  border: 1px solid black;
+}
+input{
+  width: 90%;
+}
+.main{
+  display: flex;
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+button{
+  width: 90%;
+}
